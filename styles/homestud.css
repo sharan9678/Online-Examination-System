@@ -1,0 +1,126 @@
+body {
+    color: #fff !important;
+    font-weight:bolder;
+    margin: 0 !important;
+    font-weight: bolder !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    margin: 1.5vw;
+    font-size: 1.5vw !important;
+}
+
+ul {
+    list-style: none;
+    width: auto !important;
+    font-weight: 2vw !important;
+}
+
+.navbar {
+    background-color: white !important;
+    font-size: 1.5vw !important;
+}
+
+.navbar>ul>li:hover {
+    color: #042A38;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: default;
+
+}
+
+.navbar>ul>li>a:hover {
+    color: #042A38;
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.prof,#score{
+    top: 3vw;
+    position: fixed;
+    width: 50vw !important;
+    margin-left: 25vw !important;
+    margin-right: 25vw !important;
+    background-color: #fff !important;
+    display: none !important;
+    border-radius: 10px;
+    margin-top: 2vw;
+    z-index: 1;
+    padding: 1vw;
+    padding-left: 2vw;
+    color: #042A38;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        display: initial !important;
+
+    }
+
+    .navbar>ul {
+        display: initial !important;
+        left: 25vw !important;
+        text-align: center;
+        right: 25vw !important;
+    }
+
+    .navbar>ul>li {
+        background-color: orange !important;
+    }
+
+    section {
+        text-align: center;
+        margin-top: 0 !important;
+        background-color: orange !important;
+        width: 100vw;
+        margin: 0 !important;
+    }
+    p{
+        color:#042A38 !important;
+    }
+    
+}
+
+table{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-content: center;
+    border: 1px solid black;
+}
+
+thead{
+    font-weight:900;
+    font-size: 1.5vw;
+}
+
+td{
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    height: 4vw;
+    font-weight: bold;
+}
+
+#tq{
+    text-decoration: underline;
+    border: 3px solid #fff;
+    padding: 0.5vw;
+    border-radius: 10px;
+}
+
+#sc{
+    width: 100% !important;
+    margin: 0%;
+    color: #042A38;
+}
+
+#le{
+    margin-bottom: 2vw;
+}

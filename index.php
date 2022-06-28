@@ -35,8 +35,8 @@
                         }
                         if ($dbpw === $password) {
                             if ($type === 'student') {
-                                // header("location:homestud.php");
-                                header("location:dummy.php");
+                                header("location:homestud.php");
+                                // header("location:dummy.php");
                             } elseif ($type === 'staff') {
                                 // header("Location: homestaff.php");
                                 header("location:dummy.php");
