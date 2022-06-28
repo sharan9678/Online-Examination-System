@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    height: 100%;
+    min-height: 100%;
+    color: #042A38 !important;
+}
+
+.bg {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5vw;
+    background-image: url(images/rakesh.png);
+    height: auto !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#heading {
+    text-transform: uppercase;
+    padding: 2vw;
+    background-color: #fff;
+    color: #042A38;
+    margin-top:0;
+}
+
+button {
+    height: 4vw;
+    width: 40vw;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    outline: none;
+    background-color: lightblue;
+    border: none;
+}
+
+button:active {
+    background-color: lightblue;
+    color: #fff;
+}
+
+button:focus {
+    background-color: #042A38;
+    color: #fff;
+}
+
+.stud,
+.staff {
+    display: none;
+}
+
+label {
+    float: left;
+    margin-left: 25vw;
+    font-weight: bolder;
+}
+
+input,
+.selc {
+    width: 30vw !important;
+    outline: none;
+    height: 3vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+.gen {
+    width: 2vw !important;
+}
+
+form>button {
+    width: 20vw;
+    height: 2vw;
+}
+a{
+    color: #042A38;
+    margin: 2vw;
+}
+.su {
+    width: 10vw !important;
+    background-color: #042A38;
+    margin-bottom: 1vw;
+    color: #fff;
+}
+
+.formname {
+    text-shadow: 2px 0px black;
+}
+
+@media screen and (max-width: 620px) {
+
+    input,
+    .selc {
+        height: 5vw !important;
+    }
+}
