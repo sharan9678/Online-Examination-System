@@ -38,8 +38,8 @@
                                 header("location:homestud.php");
                                 // header("location:dummy.php");
                             } elseif ($type === 'staff') {
-                                // header("Location: homestaff.php");
-                                header("location:dummy.php");
+                                header("Location: homestaff.php");
+                                // header("location:dummy.php");
                             }
                         } elseif ($dbpw !== $password && $dbmail === $username) {
                             echo "<script>alert('password is wrong');</script>";

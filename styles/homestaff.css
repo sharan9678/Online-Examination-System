@@ -1,0 +1,188 @@
+#main{
+    min-height: 100% !important;
+}
+
+body {
+    margin: 0 !important;
+    font-weight: bolder !important;
+    font-family: 'Courier New', Courier, monospace;
+    height:auto;color:#fff;
+}
+
+#main {
+    background-color: #042A38;
+    height: auto;
+    color:#fff !important;
+}
+
+table{
+    border: 1px solid black;
+    width: 100% !important;
+    font-weight: bolder;
+    font-size: 2vw;
+    color: #042A38;
+}
+td{
+    border: 1px solid black;
+    width: 20%;
+    font-weight: bolder;
+    font-size: 2vw;
+
+}
+li {
+    margin: 1.5vw;
+}
+
+ul {
+    list-style: none;
+    width: auto !important;
+}
+
+.navbar {
+    background-color: #fff!important;
+    font-size: 1.5vw;
+}
+
+.navbar>ul>li:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.navbar>ul>li>a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+
+a {
+    text-decoration: none;
+    color: #042A38;
+}
+
+.prof,
+#score {
+    top: 3vw;
+    position: fixed;
+    width: 50vw !important;
+    margin-left: 25vw !important;
+    margin-right: 25vw !important;
+    background-color: #fff!important;
+    display: none !important;
+    border-radius: 10px;
+    margin-top: 2vw;
+    z-index: 1;
+    padding: 1vw;
+    padding-left: 2vw;
+    color: #042A38;
+}
+
+button {
+    height: 5vh;
+    width: 10vw;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 1vw;
+}
+
+input {
+    width: 30vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 2vw;
+    font-weight: bolder;
+    outline: none;
+}
+
+::placeholder {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: blueviolet !important;
+}
+
+.bg {
+    background-size: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        display: initial !important;
+
+    }
+
+    .navbar>ul {
+        display: initial !important;
+        left: 25vw !important;
+        text-align: center;
+        right: 25vw !important;
+    }
+
+    .navbar>ul>li {
+        background-color: orange !important;
+    }
+
+    section {
+        text-align: center;
+        margin-top: 0 !important;
+        background-color: orange !important;
+        width: 100vw;
+        margin: 0 !important;
+    }
+
+    p {
+        color: #042A38 !important;
+    }
+
+}
+table{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-content: center;
+    border: 1px solid black;
+}
+thead{
+    font-weight:900;
+    font-size: 1.5vw;
+}
+td{
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    height: 4vw;
+    font-weight: bold;
+}
+#tq{
+    text-decoration: underline;
+}
+#sc{
+    width: 100% !important;
+    margin: 0%;
+    color: #042A38;
+        }
+        #le{
+            width: 90vw;
+            margin: 0;
+            color: #fff;
+        }
+#delq,#addq{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+}
+form{
+    display: contents;
+}
